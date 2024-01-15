@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body{
+    background-color: #5B2386;
+    color: #FFFFFF;
+    font-family: 'GmarketSansMedium';
+    overflow: scroll;
+
+}
+#copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+#copyright p{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0px;
+    line-height: 2;
+}
+.logo_img{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title .clock_img{
+    position: relative;
+}
+.title_img{
+    position: absolute;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.phrase_practice {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 20px;
+    color: #F5DF4D;
+    margin-bottom: 50px;
+}
+.rule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.rule_quotes{
+    position: relative;
+    top: 35px;
+}
+.phrase_2{
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+.phrase_2 .phrase_rule span {
+    font-family: 'GmarketSansBold';
+    font-size: 20px;
+}
+.phrase_2 .phrase_rule{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.input{
+    margin-bottom: 70px;
+}
+.expert , .time{
+    font-family: 'GmarketSansBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#expert_value, #time_value{
+    font-family: 'GmarketSansBold';
+    border-radius: 7px;
+    padding: 15px 20px;
+    margin: 0 20px;
+    border: none;
+    color: #BABCBE;
+}
+
+.calculate{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.calculate_btn{
+    font-family: 'GmarketSansBold';
+    background-color: #FCEE21;
+    border-radius: 15px;
+    padding: 20px 20px;
+    color: #5B2386;
+    border: none;
+}
+
+.result .result_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.go{
+    font-family: 'GmarketSansBold';
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #F5DF4D;
+    color: #5B2386;
+}
+.share{
+    font-family: 'GmarketSansBold';
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    color: #5B2386;
+}
+
+
+
